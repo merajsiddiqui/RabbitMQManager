@@ -1,0 +1,18 @@
+{
+    "name": "merajsiddiqui/rabbit-mq-manager",
+    "description": "This Package is used to manage the rabbit-mq dynamically on the go using API",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Meraj Ahmad Siddiqui",
+            "email": "merajsiddiqui@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload" : {
+        "psr-4" : {
+            "RabbitMQManager\\" :"src/RabbitMQManager"
+        }
+    }
+}
