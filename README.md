@@ -4,29 +4,20 @@ RabbitMQ REST API Manager Library is PHP Library based on RabbitMQ GUI REST API.
 
 ### Pre Requisites
 
-RabbitMQ GUI enabled. To enable the gui
+RabbitMQ Installed. If You have server running RabbitMQ you will just need credential for the service. Else install [Rabbit MQ](https://www.rabbitmq.com/).
+
+If you have access to system running RabbitMQ enable rabbitmq management plugin or ask your server administrator to enable that.
+
+To enable RabbitMQ Management plugin 
 
 ```markdown
-Syntax highlighted code block
+rabbitmq-plugins enable rabbitmq_management
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details on configuring  RabbitMQ visit [RabbitMQ](https://www.rabbitmq.com/).
 
-### Jekyll Themes
+### Using This Library
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/merajsiddiqui/RabbitMQManager/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
