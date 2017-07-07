@@ -33,6 +33,7 @@ class Config {
 	 * @var string
 	 */
 	protected static $username = "guest";
+	
 
 	/**
 	 * Password

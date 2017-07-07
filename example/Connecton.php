@@ -1,14 +1,10 @@
 <?php
 
-$configuration = [
-	"host" => "192.168.1.34",
-	"port" => "15672",
-	"vhost" => "/",
-	"username" => "linkex",
-	"password" => "linkex",
-];
 
 require dirname(__dir__) . "/vendor/autoload.php";
+
+$configuration_file =  dirname(__FILE__)."/config.json";
+$configuration = json_decode(file_get_contents($configuration_file), true);
 
 use RabbitMQManager\Config;
 use RabbitMQManager\Connection;

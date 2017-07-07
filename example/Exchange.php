@@ -1,14 +1,9 @@
 <?php
 
-$configuration = [
-	"host" => "127.0.0.1",
-	"port" => "15672",
-	"vhost" => "/",
-	"username" => "guest",
-	"password" => "meraj",
-];
-
 require dirname(__dir__) . "/vendor/autoload.php";
+
+$configuration_file =  dirname(__FILE__)."/config.json";
+$configuration = json_decode(file_get_contents($configuration_file), true);
 
 use RabbitMQManager\Config;
 use RabbitMQManager\Exchange;
