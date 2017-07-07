@@ -1,7 +1,9 @@
 {
     "name": "merajsiddiqui/rabbit-mq-manager",
-    "description": "This Package is used to manage the rabbit-mq dynamically on the go using API",
-    "type": "package",
+    "description": "This library can be used to manage Rabbit MQ Message Broker using REST API.",
+    "homepage" :"https://merajsiddiqui.github.io/RabbitMQManager/",
+    "keywords": ["rabbitmq, rabbitmq Manager", "rabbitmq rest API"],
+    "type": "library",
     "authors": [
         {
             "name": "Meraj Ahmad Siddiqui",
@@ -9,7 +11,9 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "php":">5.5.0"
+    },
     "autoload" : {
         "psr-4" : {
             "RabbitMQManager\\" :"src/RabbitMQManager"
