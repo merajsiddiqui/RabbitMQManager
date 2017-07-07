@@ -2,7 +2,7 @@
     "name": "merajsiddiqui/rabbit-mq-manager",
     "description": "This library can be used to manage Rabbit MQ Message Broker using REST API.",
     "homepage" :"https://merajsiddiqui.github.io/RabbitMQManager/",
-    "keywords": ["rabbitmq, rabbitmq Manager", "rabbitmq rest API"],
+    "keywords": ["rabbitmq, rabbitmq-Manager", "rabbitmq-rest-API"],
     "version":"1.0",
     "type": "library",
     "authors": [
